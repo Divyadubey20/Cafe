@@ -1,0 +1,10 @@
+[
+  { "id": 1, "name": "Starters", "slug": "starters", "image": "/images/categories/starters.jpg", "displayOrder": 1, "itemCount": 13 },
+  { "id": 2, "name": "Chinese", "slug": "chinese", "image": "/images/categories/chinese.jpg", "displayOrder": 2, "itemCount": 15 },
+  { "id": 3, "name": "Tandoor Breads", "slug": "tandoor-breads", "image": "/images/categories/tandoor-breads.jpg", "displayOrder": 3, "itemCount": 11 },
+  { "id": 4, "name": "Snacks", "slug": "snacks", "image": "/images/categories/snacks.jpg", "displayOrder": 4, "itemCount": 6 },
+  { "id": 5, "name": "Pasta", "slug": "pasta", "image": "/images/categories/pasta.jpg", "displayOrder": 5, "itemCount": 2 },
+  { "id": 6, "name": "Main Course", "slug": "main-course", "image": "/images/categories/main-course.jpg", "displayOrder": 6, "itemCount": 15 },
+  { "id": 7, "name": "Salad & Raita", "slug": "salad-raita", "image": "/images/categories/salad-raita.jpg", "displayOrder": 7, "itemCount": 5 },
+  { "id": 8, "name": "Rice", "slug": "rice", "image": "/images/categories/rice.jpg", "displayOrder": 8, "itemCount": 6 }
+]

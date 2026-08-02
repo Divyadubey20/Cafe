@@ -1,0 +1,72 @@
+@import "tailwindcss";
+
+:root {
+  --background: #FFF8F0;
+  --foreground: #2D1810;
+  
+  --card: #ffffff;
+  --card-foreground: #2D1810;
+  
+  --popover: #ffffff;
+  --popover-foreground: #2D1810;
+  
+  --primary: #D4880F;
+  --primary-foreground: #ffffff;
+  
+  --secondary: #FFF5EB;
+  --secondary-foreground: #6B4F3A;
+  
+  --muted: #F9F2EA;
+  --muted-foreground: #9B8577;
+  
+  --accent: #E8981A;
+  --accent-foreground: #ffffff;
+  
+  --destructive: #E53E3E;
+  --destructive-foreground: #ffffff;
+  
+  --border: #F0E6DC;
+  --input: #F0E6DC;
+  --ring: #D4880F;
+  
+  --radius: 1rem;
+}
+
+@theme inline {
+  --color-background: var(--background);
+  --color-foreground: var(--foreground);
+  --color-card: var(--card);
+  --color-card-foreground: var(--card-foreground);
+  --color-primary: var(--primary);
+  --color-primary-foreground: var(--primary-foreground);
+  --color-secondary: var(--secondary);
+  --color-secondary-foreground: var(--secondary-foreground);
+  --color-muted: var(--muted);
+  --color-muted-foreground: var(--muted-foreground);
+  --color-accent: var(--accent);
+  --color-accent-foreground: var(--accent-foreground);
+  --color-border: var(--border);
+  --color-input: var(--input);
+  --color-ring: var(--ring);
+  --radius-lg: var(--radius);
+  --radius-md: calc(var(--radius) - 0.25rem);
+  --radius-sm: calc(var(--radius) - 0.5rem);
+}
+
+body {
+  background-color: var(--background);
+  color: var(--foreground);
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, sans-serif;
+  min-height: 100vh;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+/* Hide scrollbars but keep functionality */
+.no-scrollbar::-webkit-scrollbar {
+  display: none;
+}
+.no-scrollbar {
+  -ms-overflow-style: none;
+  scrollbar-width: none;
+}

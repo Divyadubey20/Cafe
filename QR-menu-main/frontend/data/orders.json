@@ -1,0 +1,35 @@
+[
+  {
+    "id": 1, "orderNumber": "#SK-4920", "tableNumber": 12, "status": "Preparing",
+    "items": [
+      { "id": 1, "menuItemId": 12, "menuItemName": "Paneer Butter Masala", "menuItemImage": "/images/menu/paneer-butter-masala.jpg", "quantity": 1, "price": 320, "specialInstruction": "" },
+      { "id": 2, "menuItemId": 20, "menuItemName": "Butter Naan", "menuItemImage": "/images/menu/butter-naan.jpg", "quantity": 2, "price": 60, "specialInstruction": "" }
+    ],
+    "subtotal": 440, "deliveryFee": 40, "gst": 22, "totalAmount": 502, "prepTime": "25 mins", "createdAt": "2026-07-15T17:30:00"
+  },
+  {
+    "id": 2, "orderNumber": "#SK-4919", "tableNumber": 5, "status": "Served",
+    "items": [
+      { "id": 3, "menuItemId": 7, "menuItemName": "Veg Manchurian Dry", "menuItemImage": "/images/menu/veg-manchurian.jpg", "quantity": 1, "price": 160, "specialInstruction": "Extra spicy" },
+      { "id": 4, "menuItemId": 9, "menuItemName": "Veg Hakka Noodles", "menuItemImage": "/images/menu/hakka-noodles.jpg", "quantity": 1, "price": 150, "specialInstruction": "" }
+    ],
+    "subtotal": 310, "deliveryFee": 40, "gst": 15.5, "totalAmount": 365.5, "prepTime": "20 mins", "createdAt": "2026-07-15T16:45:00"
+  },
+  {
+    "id": 3, "orderNumber": "#SK-4918", "tableNumber": 3, "status": "Pending",
+    "items": [
+      { "id": 5, "menuItemId": 10, "menuItemName": "Alfredo White Sauce Pasta", "menuItemImage": "/images/menu/alfredo-pasta.jpg", "quantity": 2, "price": 220, "specialInstruction": "No garlic" },
+      { "id": 6, "menuItemId": 3, "menuItemName": "Cold Coffee", "menuItemImage": "/images/menu/cold-coffee.jpg", "quantity": 2, "price": 120, "specialInstruction": "" }
+    ],
+    "subtotal": 680, "deliveryFee": 40, "gst": 34, "totalAmount": 754, "prepTime": "22 mins", "createdAt": "2026-07-15T17:50:00"
+  },
+  {
+    "id": 4, "orderNumber": "#SK-4917", "tableNumber": 8, "status": "Ready",
+    "items": [
+      { "id": 7, "menuItemId": 17, "menuItemName": "Dal Makhani", "menuItemImage": "/images/menu/dal-makhani.jpg", "quantity": 1, "price": 180, "specialInstruction": "" },
+      { "id": 8, "menuItemId": 21, "menuItemName": "Garlic Naan", "menuItemImage": "/images/menu/garlic-naan.jpg", "quantity": 3, "price": 65, "specialInstruction": "" },
+      { "id": 9, "menuItemId": 18, "menuItemName": "Jeera Rice", "menuItemImage": "/images/menu/jeera-rice.jpg", "quantity": 1, "price": 120, "specialInstruction": "" }
+    ],
+    "subtotal": 495, "deliveryFee": 40, "gst": 24.75, "totalAmount": 559.75, "prepTime": "28 mins", "createdAt": "2026-07-15T17:15:00"
+  }
+]

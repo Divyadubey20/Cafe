@@ -1,0 +1,17 @@
+{
+  "id": 1,
+  "name": "Cafe",
+  "tagline": "Delicious Food, Memorable Moments",
+  "address": "123, Food Street, Near City Square, Indore, M.P., India",
+  "phone": "+91 98765 43210",
+  "openingTime": "11 AM",
+  "closingTime": "11 PM",
+  "logoUrl": "/images/logo.png",
+  "heroImage": "/images/hero.jpg",
+  "rating": 4.8,
+  "reviewCount": "2k+",
+  "currency": "INR",
+  "currencySymbol": "₹",
+  "gstPercentage": 5,
+  "deliveryFee": 40
+}

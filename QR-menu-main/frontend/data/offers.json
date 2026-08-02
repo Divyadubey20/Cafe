@@ -1,0 +1,5 @@
+[
+  { "id": 1, "title": "Flat 20% OFF", "description": "On all Chinese dishes today!", "image": "/images/offers/chinese-offer.jpg", "discount": "20%", "bgColor": "#FFF3E0" },
+  { "id": 2, "title": "Combo Meal", "description": "Dal Makhani + Butter Naan + Lassi at ₹249", "image": "/images/offers/combo-offer.jpg", "discount": "₹249", "bgColor": "#E8F5E8" },
+  { "id": 3, "title": "Chef's Special", "description": "Try our new Malai Kofta — limited time!", "image": "/images/offers/chef-special.jpg", "discount": "NEW", "bgColor": "#FFF8E1" }
+]
